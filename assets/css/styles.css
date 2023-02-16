@@ -318,13 +318,13 @@ img {
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: #FFF;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
 } 
 .button:hover{
-  background-color: var(--first-color-al);
+  background-color: var(--first-color-alt);
 }
 .button__icon{
   font-size: 1.25rem;
