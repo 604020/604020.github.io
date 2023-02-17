@@ -462,7 +462,7 @@ img {
 .skills__bim{
   width: 37%;
 }
-/* .skills__close .skills__list{
+.skills__close .skills__list{
   height: 0;
   overflow: hidden;
 }
@@ -472,7 +472,7 @@ img {
 }
 .skills__open .skills__arrow{
   transform: rotate(-180deg);
-} */
+}
 /*==================== QUALIFICATION ====================*/
 
 
