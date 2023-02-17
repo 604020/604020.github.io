@@ -1,50 +1,100 @@
-* HOME
-home__social
+
+
+========== HEADER PROFILE ==========
+.profile__name
+Gianell Vusy
+
+.profile__profession
+Web developer
+
+.profile__social
+https://www.instagram.com/
 https://www.linkedin.com/
-https://dribbble.com/
 https://github.com/
 
-home__description
-High level experience in web design and development knowledge, producing quality work.
+.profile__info-number | .profile__info-description
+7
+Years of <br> work
 
++124
+Completed <br> projects
 
-* ABOUT
-about__description
-Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+96
+Satisfied <br> customers
 
-about__info-name
-Years <br> experience
-Completed <br> project
-Companies <br> worked
+<!-- Insert your CV -->
 
+<!-- Insert a real number plus country code -->
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
 
-* SERVICES
-services__modal-service
-I develop the user interface.
-Web page development.
-I create ux element interactions.
-I position your company brand.
+<!-- Insert your brand name or profile -->
+https://m.me/bedimcode
 
+========== FILTERS TABS ==========
+.filters__button
+Projects
 
-* PORTFOLIO
-portfolio__description
-Website adaptable to all devices, with ui components and animated interactions.
+Skills
 
+========== PROJECTS ==========	
+.projects__subtitle | .projects__title
+Web
+Payment Site
 
-* PROJECT
-project__description
-Contact me now and get a 30% discount on your new project.
+Web
+Portfolio website
 
+Movil
+Fast food app
 
-* TESTIMONIAL
-testimonial__description
-I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+Movil
+Travel app
 
+Design
+Music app design
 
-* FOOTER
-footer__social
-https://www.facebook.com/
-https://www.instagram.com/
-https://twitter.com/
+========== SKILLS ==========
+.skills__title
+Frontend Developer
 
+Backend Developer
 
+.skills__name | .skills__level
+HTML
+Basic
+
+CSS
+Advanced
+
+JavaScript
+Intermediate
+
+React
+Intermediate
+
+Bootstrap
+Intermediate
+
+Git
+Intermediate
+
+*****************
+
+PHP
+Intermediate
+
+MySQL
+Advance
+
+Firebase
+Intermediate
+
+Python
+Basic
+
+Node Js
+Intermediate
+
+========== FOOTER ==========
+.footer__copy
+&#169; Bedimcode. All rigths reserved
