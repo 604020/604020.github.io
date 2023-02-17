@@ -115,7 +115,7 @@ img {
   text-align: center;
 }
 
-.profile__perfill{
+.profile__perfil{
   width: 100px;
   height: 100px;
   background: linear-gradient(180deg,
@@ -128,7 +128,7 @@ img {
   justify-content: center;
   
 }
-.profile__perfill img{
+.profile__perfil img{
   width: 75px;
 }
 .profile__border{
