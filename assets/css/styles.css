@@ -451,7 +451,7 @@ column-gap: 3rem;
 }
 /* For medium devices */
 @media screen and (min-width: 576px){
-  .project__content{
+  .projects__content{
     grid-template-columns: 332px;
     justify-content: center;
   }
