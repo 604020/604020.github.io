@@ -5,7 +5,7 @@ const tabs = document.querySelectorAll('[data-target'),
 
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
-        const target = document.querySelectorAll(tab.dataset.target)
+        const target = document.querySelector(tab.dataset.target)
 
         tabContents.forEach(tc =>{ /*tc=tabcontent*/
             tc.classList.remove('filters__active')
