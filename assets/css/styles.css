@@ -85,7 +85,7 @@ img {
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
-  transition: .3;
+  transition: .3s;
 }
 
 .change-theme:hover{
