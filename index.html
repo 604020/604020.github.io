@@ -18,6 +18,8 @@
     <body>
         <!--=============== HEADER PROFILE ===============-->
         <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
             <div class="profile__container grid">
                 <div class="profile__data">
                     <dif class="profile__border">
@@ -27,7 +29,7 @@
                     </dif>
 
                     <h2 class="profile__name">Lukas</h2>
-                    <h3 class="profile__profession">HVAC engeneer</h3>
+                    <h3 class="profile__profession">HVAC Designer</h3>
 
                     <ul class="profile__social">
                         <a href="https://www.instagram.com" target="_blank" class="profile__social-link">
@@ -87,7 +89,7 @@
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
                 <ul class="filters__content">
-                    <button class="filters__button" data-target="#projects">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
                     Projects
                     </button>
 
@@ -98,7 +100,7 @@
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    <div class="projects__content grid" data-content id="projects">
+                    <div class="projects__content grid filters__active" data-content id="projects">
                         <article class="projects__card">
                             <img src="/assets/img/project1.jpg" alt="" class="projects__img">
 
@@ -311,7 +313,9 @@
 
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
-            
+            <span class="footer__copy">
+                &#169; air. All rights reserved
+            </span>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
