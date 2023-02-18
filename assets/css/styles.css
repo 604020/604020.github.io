@@ -399,7 +399,7 @@ column-gap: 3rem;
   display: none;
 }
 
-.filters__acttive[data-content]{
+.filters__active[data-content]{
   display: grid;
 }
 /* Activate button filter */
