@@ -32,7 +32,7 @@ const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dar
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? "ri-moon-line" : 'ri-sun-line'
 
 //we walidate if the user previously chose a topic
-if (selectTheme) {
+if (selectedTheme) {
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
     themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add': 'remove'](iconTheme)
 }
@@ -46,3 +46,17 @@ themeButton.addEventListener('click', () =>{
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+})
+sr.reveal(`.profile__border`)
+sr.reveal(`.profile__name`, {delay:500})
+sr.reveal(`.profile__profession`, {delay:600})
+sr.reveal(`.profile__social`, {delay:700})
+sr.reveal(`.profile__info-group`, {interval:100, delay:700})
+sr.reveal(`.profile__buttons`, {delay:800})
+sr.reveal(`.filters__content`, {delay:900})
+sr.reveal(`.filters`, {delay:1000})
