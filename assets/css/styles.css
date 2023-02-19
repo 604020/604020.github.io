@@ -167,7 +167,7 @@ body.dark-theme{
   width: 75px;
 }
 .profile__border{
-  border: 3.5px solid var(--first-color);
+  border: 5.5px solid var(--first-color);
   justify-self: center;
   width: 115px;
   height: 115px;
