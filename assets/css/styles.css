@@ -394,6 +394,13 @@ column-gap: 3rem;
   font-size: var(--smaller-font-size);
 }
 
+/*=============== Aboutme ===============*/
+
+.aboutme__title{
+  font-size: var(--h3-font-size);
+  justify-content: center;
+}
+
 /* Hide and show projects & skills */
 .filters [data-content]{
   display: none;
