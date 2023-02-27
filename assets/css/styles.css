@@ -204,9 +204,9 @@ body.dark-theme{
 }
 
 .profile__info{
-  grid-template-columns: repeat(3,max-content);
+  /* grid-template-columns: repeat(3,max-content);
   justify-content: center;
-  column-gap: 2.5rem;
+  column-gap: 2.5rem; */
 }
 
 .profile__info-group{
@@ -397,20 +397,11 @@ body.dark-theme{
 /*=============== Aboutme ===============*/
 
 
-.aboutme__data{
-  display: grid;
-  text-align: center;
-}
-.aboutme__title{
-  font-size: var(--h3-font-size);
-  justify-content: center;
-}
 .aboutme__description{
   font-size: var(--small-font-size);
   font-weight: 500;
   color: var(--text-color);
   margin-bottom: 1rem;
-  justify-content: center;
 }
 /* Hide and show projects & skills */
 .filters [data-content]{
